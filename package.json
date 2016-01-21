@@ -1,0 +1,37 @@
+{
+  "name": "package-cli",
+  "version": "0.1.0",
+  "description": "The missing package.json CLI tool",
+  "bin": {
+    "package": "cli.js"
+  },
+  "author": {
+    "name": "John Otander",
+    "email": "johnotander@gmail.com",
+    "url": "johnotander.com"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "repository": "johnotander/package-cli",
+  "keywords": [
+    "cli",
+    "cli-app",
+    "package",
+    "pkg"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.10.0",
+    "execa": "^0.2.2"
+  },
+  "dependencies": {
+    "is-blank": "^1.1.0",
+    "is-present": "^1.0.0",
+    "lodash.uniq": "^4.0.1",
+    "meow": "^3.7.0"
+  }
+}

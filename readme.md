@@ -31,7 +31,7 @@ $ package -h
 
 ## TODO
 
-- [ ] Sort keys
+- [ ] Sort keys (https://github.com/npm/normalize-package-data)
 - [ ] Add support for arrays or multiple add/removes
 - [ ] Add tests
 
